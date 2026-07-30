@@ -1,8 +1,13 @@
 aid: liveauctioneers
 name: LiveAuctioneers
-description: 'LiveAuctioneers is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'LiveAuctioneers is the world''s largest online marketplace for fine art, antiques,
+  jewelry, collectibles, and luxury goods, connecting bidders with thousands of vetted auction
+  houses worldwide. Founded in 2002 and headquartered in New York, it is part of Auction Technology
+  Group (ATG). The platform offers live and timed online bidding, absentee and proxy bids, an
+  auction-results and price-research database, seller consignment services, and an auctioneer
+  partner portal. It is included in the API Evangelist network as a consumer-marketplace company
+  profile surfaced from the Bessemer Venture Partners portfolio; it does not currently publish a
+  public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/liveauctioneers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-parent: auction-technology-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://p1.liveauctioneers.com/dist/images/logo_og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Marketplace
+- Auctions
+- E-Commerce
+- Collectibles
+- Art
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.liveauctioneers.com/
+- type: GettingStarted
+  url: https://www.liveauctioneers.com/how-auctions-work
+- type: Support
+  url: https://help.liveauctioneers.com/
+- type: Blog
+  url: https://www.liveauctioneers.com/pages/resource-center/
+- type: Login
+  url: https://partners.liveauctioneers.com/login
+- type: TermsOfService
+  url: https://www.liveauctioneers.com/termsandconditions
+- type: PrivacyPolicy
+  url: https://www.liveauctioneers.com/privacy
+- type: LLMsTxt
+  url: llms/liveauctioneers-llms.txt
+- type: DomainSecurity
+  url: security/liveauctioneers-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
