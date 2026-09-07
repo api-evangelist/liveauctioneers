@@ -15,7 +15,6 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-parent: auction-technology-group
 deliveryModel:
   model: saas
   open_source: false
@@ -80,3 +79,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 2
   pass: local-v1
+x-parent: auction-technology-group
+x-relationship: acquisition
