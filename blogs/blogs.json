@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://www.liveauctioneers.com/pages/feed/",
+      "feed_url": "https://www.liveauctioneers.com/pages/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://help.liveauctioneers.com/",
       "feed_url": "https://help.liveauctioneers.com/",
       "title": "",
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
